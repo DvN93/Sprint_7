@@ -1,0 +1,44 @@
+<div>POST to https://qa-scooter.education-services.ru/api/v1/orders</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+{
+    &quot;lastName&quot;: &quot;Петров&quot;,
+    &quot;address&quot;: &quot;Арбатская площадь, 14с1&quot;,
+    &quot;metroStation&quot;: &quot;Арбатская&quot;,
+    &quot;phone&quot;: &quot;+79155582267&quot;,
+    &quot;rentTime&quot;: 1,
+    &quot;deliveryDate&quot;: &quot;2026-11-08&quot;,
+    &quot;comment&quot;: &quot;Комментарий для курьера&quot;,
+    &quot;color&quot;: [
+        &quot;BLACK&quot;
+    ],
+    &quot;fisrtName&quot;: &quot;Иван&quot;
+}    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Accept: */*</div>
+        <div>Content-Type: application/json</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X POST &#39;https://qa-scooter.education-services.ru/api/v1/orders&#39; -H &#39;Accept: */*&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;lastName&quot;: &quot;Петров&quot;,
+    &quot;address&quot;: &quot;Арбатская площадь, 14с1&quot;,
+    &quot;metroStation&quot;: &quot;Арбатская&quot;,
+    &quot;phone&quot;: &quot;+79155582267&quot;,
+    &quot;rentTime&quot;: 1,
+    &quot;deliveryDate&quot;: &quot;2026-11-08&quot;,
+    &quot;comment&quot;: &quot;Комментарий для курьера&quot;,
+    &quot;color&quot;: [
+        &quot;BLACK&quot;
+    ],
+    &quot;fisrtName&quot;: &quot;Иван&quot;
+}&#39;
+</div>
